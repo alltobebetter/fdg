@@ -4,14 +4,9 @@
   "description": "WebSocket proxy for hack.chat on Vercel",
   "main": "api/chat-ws.js",
   "scripts": {
-    "dev": "vercel dev",
-    "build": "echo 'No build step required'",
-    "start": "node api/chat-ws.js"
+    "dev": "vercel dev"
   },
   "dependencies": {},
-  "engines": {
-    "node": ">=18.x"
-  },
   "keywords": [
     "websocket",
     "proxy",
